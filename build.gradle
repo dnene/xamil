@@ -1,8 +1,8 @@
 group 'org.kotyle'
-version '0.0.1-SNAPSHOT'
+version '0.0.1'
 
 buildscript {
-    ext.kotlin_version = "1.0.1-2"
+    ext.kotlin_version = "1.0.2"
     ext.dokka_version = "0.9.7"
     ext.gradle_bintray_version = "1.6"
     repositories {
@@ -33,7 +33,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}",
             'ch.qos.logback:logback-classic:1.1.6',
-            'org.kotyle:kylix:0.0.2-SNAPSHOT'
+            'org.kotyle:kylix:0.0.2'
 
     testCompile "junit:junit:4.12"
 }
